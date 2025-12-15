@@ -5,7 +5,7 @@
   justify-content: center;
   height: 100vh;
   background: linear-gradient(135deg, #282c34, #3a3f47);
-  color: #fff;
+  color: #1bff0a;
   font-family: Arial, sans-serif;
   padding: 1rem;
   box-sizing: border-box;
@@ -17,11 +17,20 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.subtitle {
-  font-size: 1.75rem;
-  margin-bottom: 2.5rem;
-  color: #dcdcdc;
+.start-screen h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;  
+  margin-bottom: 2.5rem;
+  color: #b1a5e1;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
 
 .buttonContainer {
   display: flex;
@@ -29,17 +38,18 @@
 }
 
 .button {
-  padding: 0.75rem 2rem;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: #007bff;
+  padding: 14px 36px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 40px;
   border: none;
-  border-radius: 8px;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: white;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
+
 
 .button:hover {
   background-color: #0056b3;
